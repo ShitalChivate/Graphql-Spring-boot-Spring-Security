@@ -1,0 +1,13 @@
+xyz\itshark\restdemo\simplespringgraphqlmongoconftalkdemo\repository\CommentRepository.class
+xyz\itshark\restdemo\simplespringgraphqlmongoconftalkdemo\resolver\ql\PostResolver.class
+xyz\itshark\restdemo\simplespringgraphqlmongoconftalkdemo\resolver\ql\AuthorResolver.class
+xyz\itshark\restdemo\simplespringgraphqlmongoconftalkdemo\resolver\root\Query.class
+xyz\itshark\restdemo\simplespringgraphqlmongoconftalkdemo\resolver\ql\CommentResolver.class
+xyz\itshark\restdemo\simplespringgraphqlmongoconftalkdemo\SimpleSpringGraphqlMongoConftalkDemoApplication.class
+xyz\itshark\restdemo\simplespringgraphqlmongoconftalkdemo\GraphQLEntryPoint.class
+xyz\itshark\restdemo\simplespringgraphqlmongoconftalkdemo\repository\AuthorRepository.class
+xyz\itshark\restdemo\simplespringgraphqlmongoconftalkdemo\repository\PostRepository.class
+xyz\itshark\restdemo\simplespringgraphqlmongoconftalkdemo\pojo\Comment.class
+xyz\itshark\restdemo\simplespringgraphqlmongoconftalkdemo\pojo\Post.class
+xyz\itshark\restdemo\simplespringgraphqlmongoconftalkdemo\resolver\root\Mutation.class
+xyz\itshark\restdemo\simplespringgraphqlmongoconftalkdemo\pojo\Author.class

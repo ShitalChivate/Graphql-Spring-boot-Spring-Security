@@ -1,0 +1,32 @@
+type Author {
+  id: ID!
+  authorName: String!
+  price : String!
+  posts: [Post]
+ }
+ 
+type Post {
+  id: ID!
+  price: String!
+  quantity: String
+  orderProceed : String!
+}
+
+schema {
+  query: Query
+  mutation: Mutation
+}
+
+type Query {
+  allOrders: [Post]
+  allAuthors: [Author]
+  getAuthor(id: String!): Author
+}
+
+type Mutation {
+  addAuthor(authorName: String!,price: String!) : Author
+  orderProceed(id: ID!,orderProceed : String!): Post
+  addOrder(quantity: String!, authorId: ID!): Post
+  updateAuthor(id: ID!,authorName: String!,price: String!): Author
+  deleteAuthor(id: ID!): Author
+}
