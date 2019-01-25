@@ -1,7 +1,6 @@
 package xyz.itshark.restdemo.simplespringgraphqlmongoconftalkdemo.resolver.root;
 
 import com.coxautodev.graphql.tools.GraphQLRootResolver;
-
 import lombok.RequiredArgsConstructor;
 import xyz.itshark.restdemo.simplespringgraphqlmongoconftalkdemo.pojo.Author;
 import xyz.itshark.restdemo.simplespringgraphqlmongoconftalkdemo.pojo.Post;
@@ -31,21 +30,19 @@ public class Mutation implements GraphQLRootResolver {
 		Post post=postRepo.findOne((id));
 		System.out.println(post);
 		post.setOrderProceed(orderProceed);
-		return post;
+		return postRepo.save(post);
 	}
 	
 	public Post addOrder( String quantity, String authorId) {
 		Author auth = authRepo.findOne(authorId);
-		Author authPrice = authRepo.findOne(authorId);
-		System.out.println(authPrice);
-		int Price=Integer.parseInt(authPrice.getPrice());
+		int Price=Integer.parseInt(auth.getPrice());
 		System.out.println(Price);
 
 		if(auth != null) {
 
 			Post post = new Post(null,quantity);
 			int total  = Price*Integer.parseInt(quantity);
-			post.setTitle(""+total);
+			post.setPrice(""+total);
 			post.setAuthorId(authorId);
 			return postRepo.save(post);
 		}
@@ -55,9 +52,9 @@ public class Mutation implements GraphQLRootResolver {
 
 	public Author updateAuthor(String id,String authorName,String price) {
 		Author author=new Author(id,authorName,price);
-		System.out.println(author);
-		String empty=author.getId();
-		System.out.println(empty);
+//		System.out.println(author);
+//		String empty=author.getId();
+//		System.out.println(empty);
 		author.setPrice(price);
 		author.setAuthorName(authorName);
 		return  authRepo.save(author);
@@ -65,8 +62,7 @@ public class Mutation implements GraphQLRootResolver {
 	}
 
 	public Author deleteAuthor(String id){
-
-		Author auth = authRepo.findOne(id);
+	    Author auth = authRepo.findOne(id);
 		authRepo.delete(id);
 		return auth;
 	}

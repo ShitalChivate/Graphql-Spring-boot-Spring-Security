@@ -35,11 +35,16 @@ public class Query implements GraphQLRootResolver {
 
 	@GetMapping("/list")
     public List<Author> allAuthors() {
+        List<Author> list = authRepo.findAll();
+        for(Author a: list){
+            System.out.println(a.getAuthorName());
+        }
     		return authRepo.findAll();
     }
 
 
-	public Author getAuthor(String Id){ Author a = authRepo.findById(Id);
+	public Author getAuthor(String Id){
+	    Author a = authRepo.findById(Id);
 //		System.out.println(a.getName());
 		return a;}
 

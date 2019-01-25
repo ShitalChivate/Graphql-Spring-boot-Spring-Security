@@ -26,6 +26,7 @@ public class Post {
 	public Post(String authorId , String quantity) {
 		super();
 		this.quantity = quantity;
+		this.authorId=authorId;
 	}
 
 	public String getId() {
@@ -42,10 +43,11 @@ public class Post {
 		this.authorId = authorId;
 	}
 
-	public String getTitle() {
+	public String getPrice() {
 		return price;
 	}
-	public void setTitle(String price) {
+
+	public void setPrice(String price) {
 		this.price = price;
 	}
 
