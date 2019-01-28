@@ -1,9 +1,9 @@
-package xyz.itshark.restdemo.simplespringgraphqlmongoconftalkdemo.repository;
+package com.graphql_spring_demo.repository;
 
 import java.util.List;
 
+import com.graphql_spring_demo.pojo.Post;
 import org.springframework.data.mongodb.repository.MongoRepository;
-import xyz.itshark.restdemo.simplespringgraphqlmongoconftalkdemo.pojo.Post;
 
 
 public interface PostRepository extends MongoRepository<Post,String> {

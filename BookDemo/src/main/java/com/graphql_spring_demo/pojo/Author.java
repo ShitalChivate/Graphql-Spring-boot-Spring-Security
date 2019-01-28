@@ -1,4 +1,4 @@
-package xyz.itshark.restdemo.simplespringgraphqlmongoconftalkdemo.pojo;
+package com.graphql_spring_demo.pojo;
 
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;

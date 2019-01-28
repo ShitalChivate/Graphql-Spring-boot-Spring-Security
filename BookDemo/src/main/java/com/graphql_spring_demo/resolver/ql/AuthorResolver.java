@@ -1,11 +1,11 @@
-package xyz.itshark.restdemo.simplespringgraphqlmongoconftalkdemo.resolver.ql;
+package com.graphql_spring_demo.resolver.ql;
 
 
 import java.util.List;
 import com.coxautodev.graphql.tools.GraphQLResolver;
-import xyz.itshark.restdemo.simplespringgraphqlmongoconftalkdemo.pojo.Author;
-import xyz.itshark.restdemo.simplespringgraphqlmongoconftalkdemo.pojo.Post;
-import xyz.itshark.restdemo.simplespringgraphqlmongoconftalkdemo.repository.PostRepository;
+import com.graphql_spring_demo.pojo.Author;
+import com.graphql_spring_demo.pojo.Post;
+import com.graphql_spring_demo.repository.PostRepository;
 
 
 public class AuthorResolver implements GraphQLResolver<Author> {

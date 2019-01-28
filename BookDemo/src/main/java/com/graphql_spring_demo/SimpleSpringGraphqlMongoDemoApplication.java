@@ -1,19 +1,19 @@
-package xyz.itshark.restdemo.simplespringgraphqlmongoconftalkdemo;
+package com.graphql_spring_demo;
 
+import com.graphql_spring_demo.repository.AuthorRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.web.servlet.ServletRegistrationBean;
 import org.springframework.context.annotation.Bean;
 
-import xyz.itshark.restdemo.simplespringgraphqlmongoconftalkdemo.repository.AuthorRepository;
-import xyz.itshark.restdemo.simplespringgraphqlmongoconftalkdemo.repository.PostRepository;
+import com.graphql_spring_demo.repository.PostRepository;
 
 @SpringBootApplication
-public class SimpleSpringGraphqlMongoConftalkDemoApplication {
+public class SimpleSpringGraphqlMongoDemoApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SimpleSpringGraphqlMongoConftalkDemoApplication.class, args);
+		SpringApplication.run(SimpleSpringGraphqlMongoDemoApplication.class, args);
 	}
 	
 	@Bean

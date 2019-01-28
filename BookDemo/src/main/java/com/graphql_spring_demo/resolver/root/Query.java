@@ -1,16 +1,16 @@
-package xyz.itshark.restdemo.simplespringgraphqlmongoconftalkdemo.resolver.root;
+package com.graphql_spring_demo.resolver.root;
 
 
 import java.util.List;
 import com.coxautodev.graphql.tools.GraphQLRootResolver;
+import com.graphql_spring_demo.pojo.Author;
+import com.graphql_spring_demo.pojo.Post;
+import com.graphql_spring_demo.repository.AuthorRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import xyz.itshark.restdemo.simplespringgraphqlmongoconftalkdemo.pojo.Author;
-import xyz.itshark.restdemo.simplespringgraphqlmongoconftalkdemo.pojo.Post;
-import xyz.itshark.restdemo.simplespringgraphqlmongoconftalkdemo.repository.AuthorRepository;
-import xyz.itshark.restdemo.simplespringgraphqlmongoconftalkdemo.repository.PostRepository;
+import com.graphql_spring_demo.repository.PostRepository;
 
 @RestController
 @RequestMapping("/rest/graphql")

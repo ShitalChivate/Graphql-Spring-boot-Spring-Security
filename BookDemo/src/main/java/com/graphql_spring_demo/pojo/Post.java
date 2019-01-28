@@ -1,4 +1,4 @@
-package xyz.itshark.restdemo.simplespringgraphqlmongoconftalkdemo.pojo;
+package com.graphql_spring_demo.pojo;
 
 import javax.validation.constraints.NotNull;
 import org.springframework.data.annotation.Id;

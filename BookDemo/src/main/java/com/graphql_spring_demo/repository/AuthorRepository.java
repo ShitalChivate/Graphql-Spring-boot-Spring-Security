@@ -1,7 +1,7 @@
-package xyz.itshark.restdemo.simplespringgraphqlmongoconftalkdemo.repository;
+package com.graphql_spring_demo.repository;
 
 import org.springframework.data.mongodb.repository.MongoRepository;
-import xyz.itshark.restdemo.simplespringgraphqlmongoconftalkdemo.pojo.Author;
+import com.graphql_spring_demo.pojo.Author;
 
 
 public interface AuthorRepository extends MongoRepository<Author, String> {

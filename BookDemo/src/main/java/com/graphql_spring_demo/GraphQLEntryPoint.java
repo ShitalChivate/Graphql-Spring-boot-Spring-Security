@@ -1,15 +1,15 @@
-package xyz.itshark.restdemo.simplespringgraphqlmongoconftalkdemo;
+package com.graphql_spring_demo;
 
 import com.coxautodev.graphql.tools.SchemaParser;
+import com.graphql_spring_demo.repository.AuthorRepository;
 import graphql.schema.GraphQLSchema;
 import graphql.servlet.SimpleGraphQLServlet;
 import org.jetbrains.annotations.NotNull;
-import xyz.itshark.restdemo.simplespringgraphqlmongoconftalkdemo.repository.AuthorRepository;
-import xyz.itshark.restdemo.simplespringgraphqlmongoconftalkdemo.repository.PostRepository;
-import xyz.itshark.restdemo.simplespringgraphqlmongoconftalkdemo.resolver.ql.AuthorResolver;
-import xyz.itshark.restdemo.simplespringgraphqlmongoconftalkdemo.resolver.ql.PostResolver;
-import xyz.itshark.restdemo.simplespringgraphqlmongoconftalkdemo.resolver.root.Mutation;
-import xyz.itshark.restdemo.simplespringgraphqlmongoconftalkdemo.resolver.root.Query;
+import com.graphql_spring_demo.repository.PostRepository;
+import com.graphql_spring_demo.resolver.ql.AuthorResolver;
+import com.graphql_spring_demo.resolver.ql.PostResolver;
+import com.graphql_spring_demo.resolver.root.Mutation;
+import com.graphql_spring_demo.resolver.root.Query;
 
 
 public class GraphQLEntryPoint extends SimpleGraphQLServlet {

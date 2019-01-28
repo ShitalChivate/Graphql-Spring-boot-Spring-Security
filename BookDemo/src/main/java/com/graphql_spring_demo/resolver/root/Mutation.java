@@ -1,10 +1,10 @@
-package xyz.itshark.restdemo.simplespringgraphqlmongoconftalkdemo.resolver.root;
+package com.graphql_spring_demo.resolver.root;
 
 import com.coxautodev.graphql.tools.GraphQLRootResolver;
-import xyz.itshark.restdemo.simplespringgraphqlmongoconftalkdemo.pojo.Author;
-import xyz.itshark.restdemo.simplespringgraphqlmongoconftalkdemo.pojo.Post;
-import xyz.itshark.restdemo.simplespringgraphqlmongoconftalkdemo.repository.AuthorRepository;
-import xyz.itshark.restdemo.simplespringgraphqlmongoconftalkdemo.repository.PostRepository;
+import com.graphql_spring_demo.pojo.Author;
+import com.graphql_spring_demo.pojo.Post;
+import com.graphql_spring_demo.repository.AuthorRepository;
+import com.graphql_spring_demo.repository.PostRepository;
 
 
 public class Mutation implements GraphQLRootResolver {
@@ -19,12 +19,12 @@ public class Mutation implements GraphQLRootResolver {
 	private  AuthorRepository authRepo;
 	private  PostRepository postRepo;
 
-	public Author addAuthor(String pname,String price) {
+	public Author addAuthor(String pname, String price) {
 
 		return authRepo.save(new Author(null, pname,price));
 	}
 	
-	public Post orderProceed(String id,String orderProceed) {
+	public Post orderProceed(String id, String orderProceed) {
 		Post post=postRepo.findOne((id));
 		System.out.println(post);
 		post.setOrderProceed(orderProceed);
