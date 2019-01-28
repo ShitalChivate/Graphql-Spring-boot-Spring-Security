@@ -1,13 +1,11 @@
 package xyz.itshark.restdemo.simplespringgraphqlmongoconftalkdemo.resolver.root;
 
 import com.coxautodev.graphql.tools.GraphQLRootResolver;
-import lombok.RequiredArgsConstructor;
 import xyz.itshark.restdemo.simplespringgraphqlmongoconftalkdemo.pojo.Author;
 import xyz.itshark.restdemo.simplespringgraphqlmongoconftalkdemo.pojo.Post;
 import xyz.itshark.restdemo.simplespringgraphqlmongoconftalkdemo.repository.AuthorRepository;
 import xyz.itshark.restdemo.simplespringgraphqlmongoconftalkdemo.repository.PostRepository;
 
-@RequiredArgsConstructor
 
 public class Mutation implements GraphQLRootResolver {
 	
@@ -52,9 +50,6 @@ public class Mutation implements GraphQLRootResolver {
 
 	public Author updateAuthor(String id,String authorName,String price) {
 		Author author=new Author(id,authorName,price);
-//		System.out.println(author);
-//		String empty=author.getId();
-//		System.out.println(empty);
 		author.setPrice(price);
 		author.setAuthorName(authorName);
 		return  authRepo.save(author);

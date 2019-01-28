@@ -1,14 +1,10 @@
 package xyz.itshark.restdemo.simplespringgraphqlmongoconftalkdemo.pojo;
 
 import javax.validation.constraints.NotNull;
-
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 import com.fasterxml.jackson.annotation.JsonInclude;
 
-import lombok.Data;
-
-@Data
 @Document(collection="posts")
 @JsonInclude(JsonInclude.Include.NON_NULL)
 public class Post {
@@ -59,4 +55,11 @@ public class Post {
 		this.orderProceed = orderProceed;
 	}
 
+	public String getQuantity() {
+		return quantity;
+	}
+
+	public void setQuantity(String quantity) {
+		this.quantity = quantity;
+	}
 }
