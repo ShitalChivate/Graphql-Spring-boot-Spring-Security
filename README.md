@@ -1,2 +1,2 @@
 # Spring-boot-Graphql
-Spring Boot Graphql Dmo
+Spring Boot Graphql Demo
