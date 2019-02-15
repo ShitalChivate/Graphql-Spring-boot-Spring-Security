@@ -1,1 +1,1 @@
-This is code used as demo for conference talk GraphQL vs Traditional REST API
+This is code used as demo for Spring Boot GraphQL
