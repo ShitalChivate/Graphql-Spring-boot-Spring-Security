@@ -20,13 +20,25 @@ schema {
 type Query {
   allOrders: [Post]
   allAuthors: [Author]
+  allUsers: [User]
   getAuthor(id: String!): Author
+  loginUser(name:String!):User
+}
+
+type User {
+  id: ID!
+  name: String!
+  email: String!
+  password: String!
+  jwtToken: String!
 }
 
 type Mutation {
-  addAuthor(authorName: String!,price: String!) : Author
+  addAuthor(id: ID!,authorName: String!,price: String!) : Author
   orderProceed(id: ID!,orderProceed : String!): Post
-  addOrder(quantity: String!, authorId: ID!): Post
+  addOrder(orderid: ID!,quantity: String!, authorId: ID!): Post
   updateAuthor(id: ID!,authorName: String!,price: String!): Author
   deleteAuthor(id: ID!): Author
+  createUser(name: String!,email: String!,password: String! ): User
 }
+
