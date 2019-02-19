@@ -10,14 +10,14 @@ public class JwtUserDetails implements UserDetails {
 
     private String userName;
     private String token;
-    private Long id;
+    private String password;
     private Collection<? extends GrantedAuthority> authorities;
 
 
-    public JwtUserDetails(String userName, long id, String token, List<GrantedAuthority> grantedAuthorities) {
+    public JwtUserDetails(String userName, String password, String token, List<GrantedAuthority> grantedAuthorities) {
 
         this.userName = userName;
-        this.id = id;
+        this.password = password;
         this.token= token;
         this.authorities = grantedAuthorities;
     }
@@ -29,7 +29,7 @@ public class JwtUserDetails implements UserDetails {
 
     @Override
     public String getPassword() {
-        return null;
+        return password;
     }
 
     @Override
@@ -64,11 +64,6 @@ public class JwtUserDetails implements UserDetails {
 
     public String getToken() {
         return token;
-    }
-
-
-    public Long getId() {
-        return id;
     }
 
 }
