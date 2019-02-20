@@ -8,7 +8,6 @@ import com.graphqlspringdemo.pojo.Post;
 import com.graphqlspringdemo.pojo.User;
 import com.graphqlspringdemo.repository.AuthorRepository;
 import com.graphqlspringdemo.repository.UserRepository;
-//import com.graphqlspringdemo.security.GenerateJWTToken;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import com.graphqlspringdemo.repository.PostRepository;
@@ -53,7 +52,7 @@ public class Query implements GraphQLRootResolver {
 
 	public User loginUser(String name){
 		User dbUser=userRepository.findByName(name);
-		System.out.println(dbUser);
+//		System.out.println(dbUser.getName());
 		return dbUser;
 	}
 

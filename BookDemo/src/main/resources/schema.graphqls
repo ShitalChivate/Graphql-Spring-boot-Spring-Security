@@ -12,6 +12,13 @@ type Post {
   orderProceed : String!
 }
 
+type User {
+  id: ID!
+  name: String!
+  email: String!
+  password: String!
+}
+
 schema {
   query: Query
   mutation: Mutation
@@ -23,14 +30,6 @@ type Query {
   allUsers: [User]
   getAuthor(id: String!): Author
   loginUser(name:String!):User
-}
-
-type User {
-  id: ID!
-  name: String!
-  email: String!
-  password: String!
-  jwtToken: String!
 }
 
 type Mutation {
