@@ -28,7 +28,6 @@ public class Query implements GraphQLRootResolver {
 	private  PostRepository postRepository;
 	@Autowired
 	private  AuthorRepository authRepo;
-
 	@Autowired
 	private UserRepository userRepository;
 
@@ -38,12 +37,10 @@ public class Query implements GraphQLRootResolver {
 		return postRepository.findAll();
 	}
 
-	String jwtToken = null;
 	@GetMapping("/list")
 	public List<Author> allAuthors() {
 		return authRepo.findAll();
 	}
-
 
 	public Author getAuthor(String Id){
 		Author a = authRepo.findById(Id);

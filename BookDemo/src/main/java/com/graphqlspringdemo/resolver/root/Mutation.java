@@ -9,9 +9,11 @@ import com.graphqlspringdemo.repository.PostRepository;
 import com.graphqlspringdemo.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.env.Environment;
+import org.springframework.stereotype.Service;
 import org.springframework.web.bind.annotation.CrossOrigin;
 
 @CrossOrigin(origins = "*",maxAge = 3600)
+@Service
 public class Mutation implements GraphQLRootResolver {
 
 
@@ -21,7 +23,7 @@ public class Mutation implements GraphQLRootResolver {
 		this.postRepo = postRepo;
 		this.userRepository = userRepository;
 	}
-
+	@Autowired
 	private AuthorRepository authRepo;
 	private PostRepository postRepo;
 

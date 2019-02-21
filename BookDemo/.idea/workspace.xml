@@ -2,61 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b95ae71-d05f-40ff-a06b-d080bc98d26a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_4_2_3_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_4_2_4_RELEASE.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-springboot-graphql-mongo-demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/simple-springboot-graphql-mongo-demo.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/graphqlspringdemo/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/graphqlspringdemo/controller/HelloController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/graphqlspringdemo/controller/TokenController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/graphqlspringdemo/controller/TokenController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/graphqlspringdemo/model/JwtUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/graphqlspringdemo/model/JwtUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/graphqlspringdemo/model/JwtUserDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/graphqlspringdemo/model/JwtUserDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/graphqlspringdemo/GraphQLEntryPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/graphqlspringdemo/GraphQLEntryPoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/graphqlspringdemo/pojo/Author.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/graphqlspringdemo/pojo/Author.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/graphqlspringdemo/resolver/root/Mutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/graphqlspringdemo/resolver/root/Mutation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/graphqlspringdemo/resolver/root/Query.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/graphqlspringdemo/resolver/root/Query.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/graphqlspringdemo/security/JwtAuthenticationProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/graphqlspringdemo/security/JwtAuthenticationProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/graphqlspringdemo/security/JwtGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/graphqlspringdemo/security/JwtGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/graphqlspringdemo/security/JwtValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/graphqlspringdemo/security/JwtValidator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/schema.graphqls" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/schema.graphqls" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/simple-springboot-graphql-mongo-conftalk-demo.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/simple-springboot-graphql-mongo-demo.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/graphqlspringdemo/GraphQLEntryPoint.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/graphqlspringdemo/SimpleSpringGraphqlMongoDemoApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/graphqlspringdemo/config/JwtSecurityConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/graphqlspringdemo/controller/HelloController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/graphqlspringdemo/controller/TokenController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/graphqlspringdemo/model/JwtAuthenticationToken.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/graphqlspringdemo/model/JwtUser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/graphqlspringdemo/model/JwtUserDetails.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/graphqlspringdemo/pojo/Author.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/graphqlspringdemo/pojo/Post.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/graphqlspringdemo/pojo/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/graphqlspringdemo/repository/AuthorRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/graphqlspringdemo/repository/PostRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/graphqlspringdemo/repository/UserRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/graphqlspringdemo/resolver/ql/AuthorResolver.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/graphqlspringdemo/resolver/ql/PostResolver.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/graphqlspringdemo/resolver/root/Mutation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/graphqlspringdemo/resolver/root/Query.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/graphqlspringdemo/security/JwtAuthenticationEntryPoint.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/graphqlspringdemo/security/JwtAuthenticationProvider.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/graphqlspringdemo/security/JwtAuthenticationTokenFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/graphqlspringdemo/security/JwtGenerator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/graphqlspringdemo/security/JwtSuccessHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/graphqlspringdemo/security/JwtValidator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/schema.graphqls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/simple-springboot-graphql-mongo-conftalk-demo-0.0.4-SNAPSHOT.jar.original" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-xyz.itshark.restdemo.simplespringgraphqlmongoconftalkdemo.SimpleSpringGraphqlMongoConftalkDemoApplicationTests.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/xyz.itshark.restdemo.simplespringgraphqlmongoconftalkdemo.SimpleSpringGraphqlMongoConftalkDemoApplicationTests.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/simple-springboot-graphql-mongo-conftalk-demo.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/simple-springboot-graphql-mongo-demo.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/graphqlspringdemo/SimpleSpringGraphqlMongoDemoApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/graphqlspringdemo/SimpleSpringGraphqlMongoDemoApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/graphqlspringdemo/SimpleSpringGraphqlMongoDemoApplicationTests.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -65,45 +16,117 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/simple_springboot_graphql_mongo_demo$SimpleSpringGraphqlMongoDemoApplicationTests.ic" NAME="SimpleSpringGraphqlMongoDemoApplicationTests Coverage Results" MODIFIED="1550574334905" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.graphqlspringdemo.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/simple_springboot_graphql_mongo_demo$SimpleSpringGraphqlMongoDemoApplicationTests_deleteUserTest.ic" NAME="SimpleSpringGraphqlMongoDemoApplicationTests.deleteUserTest Coverage Results" MODIFIED="1550658435131" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.graphqlspringdemo.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/simple_springboot_graphql_mongo_demo$MathApplicationTester_saveUserTest.ic" NAME="MathApplicationTester.saveUserTest Coverage Results" MODIFIED="1550649291489" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.graphqlspringdemo.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="190" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/graphqlspringdemo/SimpleSpringGraphqlMongoDemoApplicationTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="76" column="26" selection-start-line="76" selection-start-column="26" selection-end-line="76" selection-end-column="26" />
+            <state relative-caret-position="1260">
+              <caret line="72" lean-forward="true" selection-start-line="72" selection-end-line="72" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/target/surefire-reports/com.graphqlspringdemo.SimpleSpringGraphqlMongoDemoApplicationTests.txt">
+        <entry file="file://$PROJECT_DIR$/target/classes/schema.graphqls">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/internal/runners/model/ReflectiveCallable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="3" column="95" selection-start-line="3" selection-start-column="79" selection-end-line="3" selection-end-column="145" />
+            <state relative-caret-position="273">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/.name">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/4.3.12.RELEASE/spring-test-4.3.12.RELEASE-sources.jar!/org/springframework/test/context/junit4/statements/RunAfterTestMethodCallbacks.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="20" selection-start-column="20" selection-end-column="20" />
+            <state relative-caret-position="1659">
+              <caret line="100" column="5" selection-start-line="100" selection-start-column="5" selection-end-line="100" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/target/surefire-reports/TEST-com.graphqlspringdemo.SimpleSpringGraphqlMongoDemoApplicationTests.xml">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/1.13.8.RELEASE/spring-data-commons-1.13.8.RELEASE-sources.jar!/org/springframework/data/repository/CrudRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-987">
-              <caret line="7" column="129" selection-start-line="7" selection-start-column="129" selection-end-line="7" selection-end-column="129" />
+            <state relative-caret-position="546">
+              <caret line="40" column="22" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/graphqlspringdemo/pojo/Author.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="693">
+              <caret line="48" selection-start-line="48" selection-start-column="2" selection-end-line="61" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/graphqlspringdemo/resolver/root/Query.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="714">
+              <caret line="47" column="5" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
+              <folding>
+                <element signature="e#1515#1516#0" expanded="true" />
+                <element signature="e#1553#1554#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/graphqlspringdemo/resolver/root/Mutation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="30" selection-start-line="30" selection-end-line="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/graphqlspringdemo/GraphQLEntryPoint.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -111,7 +134,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/graphql_spring_demo/exception/ApplicationException.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/graphql_spring_demo/security/GenerateJWTToken.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/graphql_spring_demo/controller/HelloController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/graphql_spring_demo/model/JwtAuthenticationToken.java" />
@@ -143,7 +165,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/graphqlspringdemo/security/JwtAuthenticationProvider.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/graphqlspringdemo/security/JwtGenerator.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/graphqlspringdemo/security/JwtValidator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/graphqlspringdemo/resolver/root/Query.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/graphqlspringdemo/model/JwtUserDetails.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/graphqlspringdemo/controller/TokenController.java" />
         <option value="$PROJECT_DIR$/.idea/.name" />
@@ -157,6 +178,13 @@
         <option value="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
         <option value="$PROJECT_DIR$/target/surefire-reports/TEST-xyz.itshark.restdemo.simplespringgraphqlmongoconftalkdemo.SimpleSpringGraphqlMongoConftalkDemoApplicationTests.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/graphqlspringdemo/GraphQLEntryPoint.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/graphqlspringdemo/resolver/root/Query.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/graphqlspringdemo/resolver/root/Mutation.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/graphqlspringdemo/MathApplicationTester.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/graphqlspringdemo/TestRunner.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/graphqlspringdemo/pojo/Author.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/graphqlspringdemo/SimpleSpringGraphqlMongoDemoApplicationTests.java" />
       </list>
     </option>
   </component>
@@ -166,6 +194,17 @@
         <option name="importAutomatically" value="true" />
       </MavenImportingSettings>
     </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="simple-springboot-graphql-mongo-demo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="10" />
@@ -180,7 +219,66 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
+      <pane id="Scope">
+        <subPane subId="Scope 'Tests'; set:Tests; class com.intellij.psi.search.scope.TestsScope">
+          <expand>
+            <path>
+              <item name="simple-springboot-graphql-mongo-demo" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="simple-springboot-graphql-mongo-demo" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+            <path>
+              <item name="simple-springboot-graphql-mongo-demo" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="simple-springboot-graphql-mongo-demo" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="simple-springboot-graphql-mongo-demo" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="simple-springboot-graphql-mongo-demo" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="simple-springboot-graphql-mongo-demo" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="simple-springboot-graphql-mongo-demo" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="simple-springboot-graphql-mongo-demo" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="simple-springboot-graphql-mongo-demo" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="simple-springboot-graphql-mongo-demo" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="simple-springboot-graphql-mongo-demo" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="graphqlspringdemo" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <subPane subId="Scope 'Default Changelist'; set:Default Changelist; class com.intellij.packageDependencies.ChangeListScope">
+          <expand>
+            <path>
+              <item name="simple-springboot-graphql-mongo-demo" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="simple-springboot-graphql-mongo-demo" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+            <path>
+              <item name="simple-springboot-graphql-mongo-demo" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="simple-springboot-graphql-mongo-demo" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name=".idea" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -190,7 +288,61 @@
             </path>
             <path>
               <item name="simple-springboot-graphql-mongo-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="BookDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="simple-springboot-graphql-mongo-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BookDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="simple-springboot-graphql-mongo-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BookDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="simple-springboot-graphql-mongo-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BookDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="graphqlspringdemo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="simple-springboot-graphql-mongo-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BookDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="simple-springboot-graphql-mongo-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BookDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="simple-springboot-graphql-mongo-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BookDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="graphqlspringdemo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="simple-springboot-graphql-mongo-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BookDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="simple-springboot-graphql-mongo-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BookDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -199,9 +351,9 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550557265446" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550738228593" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/new code/spring-boot-mockito-master" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -231,21 +383,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SimpleSpringGraphqlMongoDemoApplication">
-    <configuration name="SimpleSpringGraphqlMongoDemoApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.graphqlspringdemo.SimpleSpringGraphqlMongoDemoApplication" />
-      <module name="simple-springboot-graphql-mongo-demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.graphqlspringdemo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SimpleSpringGraphqlMongoDemoApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.SimpleSpringGraphqlMongoDemoApplicationTests.saveUserTest">
+    <configuration name="SimpleSpringGraphqlMongoDemoApplicationTests.deleteAuthorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="simple-springboot-graphql-mongo-demo" />
       <extension name="coverage">
         <pattern>
@@ -255,14 +394,83 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.graphqlspringdemo" />
       <option name="MAIN_CLASS_NAME" value="com.graphqlspringdemo.SimpleSpringGraphqlMongoDemoApplicationTests" />
+      <option name="METHOD_NAME" value="deleteAuthorTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimpleSpringGraphqlMongoDemoApplicationTests.deleteUserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="simple-springboot-graphql-mongo-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.graphqlspringdemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.graphqlspringdemo" />
+      <option name="MAIN_CLASS_NAME" value="com.graphqlspringdemo.SimpleSpringGraphqlMongoDemoApplicationTests" />
+      <option name="METHOD_NAME" value="deleteUserTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimpleSpringGraphqlMongoDemoApplicationTests.getUserbyAddressTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="simple-springboot-graphql-mongo-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.graphqlspringdemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.graphqlspringdemo" />
+      <option name="MAIN_CLASS_NAME" value="com.graphqlspringdemo.SimpleSpringGraphqlMongoDemoApplicationTests" />
+      <option name="METHOD_NAME" value="getUserbyAddressTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimpleSpringGraphqlMongoDemoApplicationTests.getUsersTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="simple-springboot-graphql-mongo-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.graphqlspringdemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.graphqlspringdemo" />
+      <option name="MAIN_CLASS_NAME" value="com.graphqlspringdemo.SimpleSpringGraphqlMongoDemoApplicationTests" />
+      <option name="METHOD_NAME" value="getUsersTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimpleSpringGraphqlMongoDemoApplicationTests.saveUserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="simple-springboot-graphql-mongo-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.graphqlspringdemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.graphqlspringdemo" />
+      <option name="MAIN_CLASS_NAME" value="com.graphqlspringdemo.SimpleSpringGraphqlMongoDemoApplicationTests" />
+      <option name="METHOD_NAME" value="saveUserTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SimpleSpringGraphqlMongoDemoApplication" />
-        <item itemvalue="JUnit.SimpleSpringGraphqlMongoDemoApplicationTests" />
+        <item itemvalue="JUnit.SimpleSpringGraphqlMongoDemoApplicationTests.saveUserTest" />
+        <item itemvalue="JUnit.SimpleSpringGraphqlMongoDemoApplicationTests.deleteAuthorTest" />
+        <item itemvalue="JUnit.SimpleSpringGraphqlMongoDemoApplicationTests.getUserbyAddressTest" />
+        <item itemvalue="JUnit.SimpleSpringGraphqlMongoDemoApplicationTests.deleteUserTest" />
+        <item itemvalue="JUnit.SimpleSpringGraphqlMongoDemoApplicationTests.getUsersTest" />
       </list>
     </recent_temporary>
   </component>
@@ -280,18 +488,51 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SimpleSpringGraphqlMongoDemoApplicationTests - 2019.02.19 at 10h 32m 27s.xml">
-      <configuration name="SimpleSpringGraphqlMongoDemoApplicationTests" configurationId="JUnit" />
+    <history-entry file="SimpleSpringGraphqlMongoDemoApplicationTests_getUserbyAddressTest - 2019.02.20 at 16h 33m 40s.xml">
+      <configuration name="SimpleSpringGraphqlMongoDemoApplicationTests.getUserbyAddressTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SimpleSpringGraphqlMongoDemoApplicationTests - 2019.02.19 at 10h 56m 59s.xml">
-      <configuration name="SimpleSpringGraphqlMongoDemoApplicationTests" configurationId="JUnit" />
+    <history-entry file="SimpleSpringGraphqlMongoDemoApplicationTests_deleteAuthorTest - 2019.02.20 at 16h 53m 24s.xml">
+      <configuration name="SimpleSpringGraphqlMongoDemoApplicationTests.deleteAuthorTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="SimpleSpringGraphqlMongoDemoApplicationTests_saveUserTest - 2019.02.20 at 16h 59m 57s.xml">
+      <configuration name="SimpleSpringGraphqlMongoDemoApplicationTests.saveUserTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SimpleSpringGraphqlMongoDemoApplicationTests_saveUserTest - 2019.02.20 at 17h 05m 15s.xml">
+      <configuration name="SimpleSpringGraphqlMongoDemoApplicationTests.saveUserTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SimpleSpringGraphqlMongoDemoApplicationTests_saveUserTest - 2019.02.20 at 17h 07m 03s.xml">
+      <configuration name="SimpleSpringGraphqlMongoDemoApplicationTests.saveUserTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SimpleSpringGraphqlMongoDemoApplicationTests_saveUserTest - 2019.02.20 at 17h 07m 44s.xml">
+      <configuration name="SimpleSpringGraphqlMongoDemoApplicationTests.saveUserTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SimpleSpringGraphqlMongoDemoApplicationTests_saveUserTest - 2019.02.20 at 17h 10m 06s.xml">
+      <configuration name="SimpleSpringGraphqlMongoDemoApplicationTests.saveUserTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SimpleSpringGraphqlMongoDemoApplicationTests_saveUserTest - 2019.02.20 at 17h 11m 02s.xml">
+      <configuration name="SimpleSpringGraphqlMongoDemoApplicationTests.saveUserTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SimpleSpringGraphqlMongoDemoApplicationTests_saveUserTest - 2019.02.20 at 17h 11m 36s.xml">
+      <configuration name="SimpleSpringGraphqlMongoDemoApplicationTests.saveUserTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SimpleSpringGraphqlMongoDemoApplicationTests_saveUserTest - 2019.02.20 at 17h 56m 55s.xml">
+      <configuration name="SimpleSpringGraphqlMongoDemoApplicationTests.saveUserTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.33812407" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21406959" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -303,14 +544,14 @@
       <window_info id="Job Explorer" order="9" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49924356" visible="true" weight="0.43207857" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.41898528" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49924356" visible="true" weight="0.3764321" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3289689" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3289689" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50075644" side_tool="true" weight="0.43207857" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.3289689" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3289689" />
       <window_info anchor="bottom" id="DB Execution Console" order="11" />
       <window_info anchor="bottom" id="Console" order="12" />
@@ -318,179 +559,86 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.32980332" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.32980332" />
     </layout>
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/graphqlspringdemo/GraphQLEntryPoint.java">
+    <entry file="file://$PROJECT_DIR$/target/maven-archiver/pom.properties" />
+    <entry file="file://$PROJECT_DIR$/.idea/.name">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="43">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state>
+          <caret column="20" selection-start-column="20" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/graphqlspringdemo/security/JWTTokenInterceptor.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/graphqlspringdemo/resolver/ql/UserResolver.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/graphqlspringdemo/security/GenerateJWTToken.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/graphqlspringdemo/resolver/ql/AuthorResolver.java">
+    <entry file="file://$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+    <entry file="file://$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+    <entry file="file://$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" />
+    <entry file="file://$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
+    <entry file="file://$PROJECT_DIR$/target/surefire-reports/com.graphqlspringdemo.SimpleSpringGraphqlMongoDemoApplicationTests.txt" />
+    <entry file="file://$PROJECT_DIR$/target/surefire-reports/TEST-com.graphqlspringdemo.SimpleSpringGraphqlMongoDemoApplicationTests.xml" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="147">
+          <caret line="76" column="26" selection-start-line="76" selection-start-column="26" selection-end-line="76" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/graphqlspringdemo/repository/UserRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/graphqlspringdemo/pojo/User.java">
+    <entry file="file://$PROJECT_DIR$/target/test-classes/com/graphqlspringdemo/SimpleSpringGraphqlMongoDemoApplicationTests.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="21">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="37" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/graphqlspringdemo/resolver/root/Mutation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/graphqlspringdemo/security/JwtAuthenticationEntryPoint.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/graphqlspringdemo/security/JwtAuthenticationTokenFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-315">
-          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/graphqlspringdemo/security/JwtValidator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="25" column="60" selection-start-line="25" selection-start-column="60" selection-end-line="25" selection-end-column="60" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/graphqlspringdemo/controller/TokenController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/graphqlspringdemo/security/JwtAuthenticationProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="861">
-          <caret line="41" column="78" selection-start-line="41" selection-start-column="78" selection-end-line="41" selection-end-column="78" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/graphqlspringdemo/resolver/root/Query.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="55" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/graphqlspringdemo/security/JwtSuccessHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LICENSE">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/graphqlspringdemo/config/JwtSecurityConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="8" selection-start-column="8" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/simple-springboot-graphql-mongo-demo-0.0.4-SNAPSHOT.jar.original">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/compiler.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/dbnavigator.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/encodings.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/modules.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/uiDesigner.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2163" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/graphqlspringdemo/SimpleSpringGraphqlMongoDemoApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+        <state relative-caret-position="-486">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -504,30 +652,137 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/graphqlspringdemo/model/JwtAuthenticationToken.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/graphqlspringdemo/controller/TokenController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="82">
+          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/graphqlspringdemo/repository/PostRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/graphqlspringdemo/resolver/ql/PostResolver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/com/graphqlspringdemo/SimpleSpringGraphqlMongoDemoApplication.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-472">
+          <folding>
+            <element signature="e#0#1326#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/com/graphqlspringdemo/GraphQLEntryPoint.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="19" column="59" lean-forward="true" selection-start-line="19" selection-start-column="59" selection-end-line="19" selection-end-column="59" />
+          <folding>
+            <element signature="e#0#1787#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/com/graphqlspringdemo/controller/TokenController.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="4" />
+          <folding>
+            <element signature="e#0#848#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/com/graphqlspringdemo/model/JwtAuthenticationToken.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#740#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/com/graphqlspringdemo/model/JwtUser.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#735#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/com/graphqlspringdemo/model/JwtUserDetails.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-724">
+          <folding>
+            <element signature="e#0#1458#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/graphqlspringdemo/security/JwtAuthenticationEntryPoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-31">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/graphqlspringdemo/security/JwtAuthenticationProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-15">
+          <caret line="41" column="78" selection-start-line="41" selection-start-column="78" selection-end-line="41" selection-end-column="78" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/graphqlspringdemo/security/JwtAuthenticationTokenFilter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-168">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <caret line="26" column="60" selection-start-line="26" selection-start-column="53" selection-end-line="26" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/graphqlspringdemo/model/JwtUser.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/graphqlspringdemo/security/JwtValidator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="-411">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/graphqlspringdemo/model/JwtUserDetails.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/graphqlspringdemo/security/JwtSuccessHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="67" selection-start-line="67" selection-end-line="67" />
+        <state relative-caret-position="231">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/graphqlspringdemo/security/JwtGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
+        <state relative-caret-position="378">
           <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -535,122 +790,175 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/8.5.23/tomcat-embed-core-8.5.23-sources.jar!/org/apache/catalina/core/ApplicationFilterChain.java">
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="172" lean-forward="true" selection-start-line="172" selection-end-line="172" />
-        </state>
+        <state relative-caret-position="-19156" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/codeStyles/Project.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/graphqlspringdemo/resolver/ql/AuthorResolver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-901" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simple-springboot-graphql-mongo-demo.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-882" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/graphqlspringdemo/SimpleSpringGraphqlMongoDemoApplicationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        <state relative-caret-position="273">
+          <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/schema.graphqls">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1575" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/classes/application.properties">
+    <entry file="file://$PROJECT_DIR$/simple-springboot-graphql-mongo-demo.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/target/maven-archiver/pom.properties">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mockito/mockito-core/1.10.19/mockito-core-1.10.19-sources.jar!/org/mockito/stubbing/OngoingStubbing.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+        <state relative-caret-position="146">
+          <caret line="48" column="23" selection-start-line="48" selection-start-column="23" selection-end-line="48" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/target/test-classes/com/graphqlspringdemo/SimpleSpringGraphqlMongoDemoApplicationTests.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mockito/mockito-core/1.10.19/mockito-core-1.10.19-sources.jar!/org/mockito/Mock.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-84">
-          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="37" />
+        <state relative-caret-position="109">
+          <caret line="63" column="18" selection-start-line="63" selection-start-column="18" selection-end-line="63" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/.name">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/graphqlspringdemo/pojo/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="20" selection-start-column="20" selection-end-column="20" />
+        <state relative-caret-position="-389">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/graphqlspringdemo/SimpleSpringGraphqlMongoDemoApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" selection-start-line="12" selection-end-line="12" selection-end-column="21" />
+        <state relative-caret-position="210">
+          <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/4.3.12.RELEASE/spring-test-4.3.12.RELEASE-sources.jar!/org/springframework/test/context/junit4/SpringJUnit4ClassRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="253" selection-start-line="253" selection-end-line="253" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/runners/ParentRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="89">
+          <caret line="286" selection-start-line="286" selection-end-line="286" />
+          <folding>
+            <element signature="e#2922#2923#0" expanded="true" />
+            <element signature="e#2966#2967#0" expanded="true" />
+            <element signature="e#11040#11204#0" expanded="true" />
+            <element signature="e#11203#11204#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/internal/requests/FilterRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="735">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/graphqlspringdemo/pojo/Post.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
-          <caret line="6" column="84" selection-start-line="6" selection-start-column="84" selection-end-line="6" selection-end-column="84" />
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/graphqlspringdemo/repository/AuthorRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="66" selection-start-column="66" selection-end-column="66" />
+        <state relative-caret-position="126">
+          <caret line="7" column="21" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/graphqlspringdemo/MathApplicationTester.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/graphqlspringdemo/TestRunner.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/Assert.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="72" selection-start-column="72" selection-end-column="72" />
+        <state relative-caret-position="109">
+          <caret line="142" column="23" selection-start-line="142" selection-start-column="23" selection-end-line="142" selection-end-column="23" />
+          <folding>
+            <element signature="e#4403#4404#0" expanded="true" />
+            <element signature="e#4455#4456#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/target/surefire-reports/com.graphqlspringdemo.SimpleSpringGraphqlMongoDemoApplicationTests.txt">
+    <entry file="file://$PROJECT_DIR$/target/classes/schema.graphqls">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/internal/runners/model/ReflectiveCallable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="95" selection-start-line="3" selection-start-column="79" selection-end-line="3" selection-end-column="145" />
+        <state relative-caret-position="273">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/target/surefire-reports/TEST-com.graphqlspringdemo.SimpleSpringGraphqlMongoDemoApplicationTests.xml">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/4.3.12.RELEASE/spring-test-4.3.12.RELEASE-sources.jar!/org/springframework/test/context/junit4/statements/RunAfterTestMethodCallbacks.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-987">
-          <caret line="7" column="129" selection-start-line="7" selection-start-column="129" selection-end-line="7" selection-end-column="129" />
+        <state relative-caret-position="1659">
+          <caret line="100" column="5" selection-start-line="100" selection-start-column="5" selection-end-line="100" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/1.13.8.RELEASE/spring-data-commons-1.13.8.RELEASE-sources.jar!/org/springframework/data/repository/CrudRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="76" column="26" selection-start-line="76" selection-start-column="26" selection-end-line="76" selection-end-column="26" />
+        <state relative-caret-position="546">
+          <caret line="40" column="22" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/graphqlspringdemo/pojo/Author.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="693">
+          <caret line="48" selection-start-line="48" selection-start-column="2" selection-end-line="61" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/graphqlspringdemo/resolver/root/Query.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="47" column="5" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
+          <folding>
+            <element signature="e#1515#1516#0" expanded="true" />
+            <element signature="e#1553#1554#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/graphqlspringdemo/resolver/root/Mutation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/graphqlspringdemo/GraphQLEntryPoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/graphqlspringdemo/SimpleSpringGraphqlMongoDemoApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1260">
+          <caret line="72" lean-forward="true" selection-start-line="72" selection-end-line="72" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
