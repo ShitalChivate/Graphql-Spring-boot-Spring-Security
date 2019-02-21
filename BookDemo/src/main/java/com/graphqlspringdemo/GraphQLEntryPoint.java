@@ -19,7 +19,6 @@ public class GraphQLEntryPoint extends SimpleGraphQLServlet {
 	public GraphQLEntryPoint(PostRepository postRepository, AuthorRepository authRepository,UserRepository userRepository) {
 		super(buildSchema(postRepository,authRepository,userRepository));
 	}
-	private AuthorRepository authRepository;
 
 	@NotNull
 	private static GraphQLSchema buildSchema(PostRepository postRepository, AuthorRepository authRepository,UserRepository userRepository ) {
