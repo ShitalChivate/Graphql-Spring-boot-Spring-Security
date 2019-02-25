@@ -3,9 +3,10 @@ package com.graphqlspringdemo.resolver.root;
 
 import java.util.List;
 import com.coxautodev.graphql.tools.GraphQLRootResolver;
+import com.graphqlspringdemo.model.JwtUser;
 import com.graphqlspringdemo.pojo.Author;
 import com.graphqlspringdemo.pojo.Post;
-import com.graphqlspringdemo.pojo.User;
+//import com.graphqlspringdemo.pojo.User;
 import com.graphqlspringdemo.repository.AuthorRepository;
 import com.graphqlspringdemo.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -47,16 +48,14 @@ public class Query implements GraphQLRootResolver {
 		return a;
 	}
 
-	public User loginUser(String name){
-		User dbUser=userRepository.findByName(name);
+	public JwtUser loginUser(String userName){
+		JwtUser dbUser=userRepository.findByUserName(userName);
 //		System.out.println(dbUser.getName());
 		return dbUser;
 	}
 
-	public List<User> allUsers() {
+	public List<JwtUser> allUsers() {
 		return userRepository.findAll();
 	}
-
-
 
 }

@@ -1,14 +1,14 @@
 package com.graphqlspringdemo.resolver.root;
 
 import com.coxautodev.graphql.tools.GraphQLRootResolver;
+import com.graphqlspringdemo.model.JwtUser;
 import com.graphqlspringdemo.pojo.Author;
 import com.graphqlspringdemo.pojo.Post;
-import com.graphqlspringdemo.pojo.User;
+//import com.graphqlspringdemo.pojo.User;
 import com.graphqlspringdemo.repository.AuthorRepository;
 import com.graphqlspringdemo.repository.PostRepository;
 import com.graphqlspringdemo.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.core.env.Environment;
 import org.springframework.stereotype.Service;
 import org.springframework.web.bind.annotation.CrossOrigin;
 
@@ -68,13 +68,9 @@ public class Mutation implements GraphQLRootResolver {
 	@Autowired
 	private UserRepository userRepository;
 
-	@Autowired
-	Environment environment;
-
-
-	public User createUser(String name, String password,String email) {
-		User newUser=new User();
-		newUser.setName(name);
+	public JwtUser createUser(String name, String password,String email) {
+		JwtUser newUser=new JwtUser();
+		newUser.setUserName(name);
 		newUser.setPassword(password);
 		newUser.setEmail(email);
 		return userRepository.save(newUser);

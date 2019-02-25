@@ -12,9 +12,9 @@ type Post {
   orderProceed : String!
 }
 
-type User {
+type JwtUser {
   id: ID!
-  name: String!
+  userName: String!
   email: String!
   password: String!
 }
@@ -27,9 +27,9 @@ schema {
 type Query {
   allOrders: [Post]
   allAuthors: [Author]
-  allUsers: [User]
+  allUsers: [JwtUser]
   getAuthor(id: String!): Author
-  loginUser(name:String!):User
+  loginUser(userName:String!):JwtUser
 }
 
 type Mutation {
@@ -38,6 +38,6 @@ type Mutation {
   addOrder(orderid: ID!,quantity: String!, authorId: ID!): Post
   updateAuthor(id: ID!,authorName: String!,price: String!): Author
   deleteAuthor(id: ID!): Author
-  createUser(name: String!,email: String!,password: String!): User
+  createUser(userName: String!,email: String!,password: String!): JwtUser
 }
 

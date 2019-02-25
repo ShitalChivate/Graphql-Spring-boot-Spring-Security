@@ -1,9 +1,17 @@
 package com.graphqlspringdemo.model;
 
+
+import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.Document;
+
+@Document(collection="Users")
 public class JwtUser {
+    @Id
+    private  String id;
     private String userName;
     private String password;
     private String role;
+    private  String email;
 
     public void setUserName(String userName) {
         this.userName = userName;
@@ -27,5 +35,24 @@ public class JwtUser {
 
     public String getRole() {
         return role;
+    }
+
+    public JwtUser() {
+    }
+
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
     }
 }
