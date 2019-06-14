@@ -1,1 +1,1 @@
-This is code used as demo for Spring Boot GraphQL
+This code used for Spring Boot GraphQL
