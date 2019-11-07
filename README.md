@@ -6,7 +6,7 @@ You'll need Java 8.
 
 Clone this repo and execute.
 
-Check out my blog for in depth description :
+Check out my blog for in depth description:
 
 1) Getting into the exciting world of GraphQL 
 (https://medium.com/@shitalkumarchivate/getting-into-the-exciting-world-of-graphql-f345bb5aa993)
